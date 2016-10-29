@@ -10,6 +10,7 @@ public class Main {
 		obiekt.setPages(24);
 		obiekt.setTitle("AkademiaKodu z pustego kons.");
 		
+		
 		// Stworzenie kodu na innym kostruktorze (ale ta sama klasa), bez setterów
 		GetterSetter obiekt1 = new GetterSetter("AkademiaKodu.pl", "Oskar", 20);
 		 

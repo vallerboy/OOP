@@ -5,9 +5,9 @@ package pl.akademiakodu.oop;
 public class GetterSetter {
  
  
-	 public String title;
-	 public int pages; 
-	 public String author;
+	 private String title;
+	 private int pages; 
+	 private String author;
 	
 	public GetterSetter() { }
 
