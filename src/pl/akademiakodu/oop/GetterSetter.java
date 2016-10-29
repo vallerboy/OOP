@@ -9,8 +9,14 @@ public class GetterSetter {
 	 private int pages; 
 	 private String author;
 	
-	public GetterSetter() { }
+	public GetterSetter() {
+		this("Brak tytu³u");
+	}
 
+	public GetterSetter(String title){
+		this(title, "Nie znam autora", 0);
+	}
+	
 	public GetterSetter(String title, String author, int pages) {
 		this.title = title;
 		this.author = author;
@@ -30,6 +36,7 @@ public class GetterSetter {
 	}
 
 	public void setPages(int pages) {
+		if(pages == 0) return;
 		this.pages = pages;
 	}
 
